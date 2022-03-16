@@ -1,0 +1,38 @@
+.cointainer {
+  background-color: rgba(31, 41, 55);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+  color: white;
+  width: 42vw;
+  justify-content: space-between;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+
+.remember {
+  font-size: 25px;
+  font-weight: bolder;
+  background: #ffa408;
+  background: -webkit-linear-gradient(to right, #ffa408 0%, #ff3f0f 100%);
+  background: -moz-linear-gradient(to right, #ffa408 0%, #ff3f0f 100%);
+  background: linear-gradient(to right, #ffa408 0%, #ff3f0f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.break-time {
+  font-size: 0.6rem;
+  margin-left: 40px;
+}
+
+.timer-div {
+  font-size: 2rem;
+  margin-left: 20px;
+}
